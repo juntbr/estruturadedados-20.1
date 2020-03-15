@@ -38,7 +38,7 @@ class ListaEncadeada:
          corredor = corredor.nxt
          i+=1
       corredor.nxt = corredor.nxt.nxt
-    self.size -= 1
+      self.size -= 1
 
 lista = ListaEncadeada()
 lista.inserir(1, 0)
